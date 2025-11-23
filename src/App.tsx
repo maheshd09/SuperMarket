@@ -13,6 +13,7 @@ export default function App() {
       <BrowserRouter>
         <DashboardLayout>
           <Routes>
+            <Route path="/" element={<ProductsPage />} />
             <Route path="/products" element={<ProductsPage />} />
             <Route path="/basket" element={<BasketPage />} />
             <Route path="/saved" element={<SavedBasketsPage />} />
